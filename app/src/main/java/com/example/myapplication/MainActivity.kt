@@ -1,14 +1,21 @@
 package com.example.myapplication
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import org.w3c.dom.Text
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity()
+{
 
-private lateinit var neha:TextView 
+private lateinit var neha: TextView
+private lateinit var sad:Text
+private lateinit var button: Button
+private lateinit var newhello:TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -1,3 +1,6 @@
 package com.example.myapplication
 
-data class Sadme()
+data class Sadme(
+
+    var enter:String
+)
